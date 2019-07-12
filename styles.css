@@ -1,3 +1,39 @@
+body{
+    scroll-behavior: smooth;
+}
+.container-fluid{
+    width: 100%;
+}
+.bckimg{
+    background-image: url('https://github.com/MungaiKeren/Akan-Names/blob/master/BeFunky-photo%20(1).jpg?raw=true'); 
+    background-size: cover;
+    background-repeat: no-repeat;  
+    height: 800px;
+}
+h1,h3,p,span{
+    text-align: center;
+    top: 50%;
+    color: white;
+}
+p{
+    font-size: 28px;
+}
+ul,li{
+    text-align: right;
+    display: inline;
+}
+button{
+    margin-left: 500px;
+}
+ /* .bckimg-contents{
+     top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  */
 form{
     margin-left: 100px;
+}
+input{
+    width: 
 }
