@@ -16,13 +16,13 @@ To make and improvement or fix a bug, please follow the steps below;
 * Push to the git branch (git push origin improvements)
 * Create a pull request
 ## Known Bugs
-Application does violates gender input.
-The day of the week might not match the actual day on the calendar.
-## Built with;
-HTML - uses forms to collect user input
-CSS - for custom stylings
-Bootstrap.css - also for stylings
-Javascript for gender validation and perform mathematical operations.
+* Application does violates gender input.
+* The day of the week might not match the actual day on the calendar.
+## Built with
+* HTML - uses forms to collect user input
+* CSS - for custom stylings
+* Bootstrap.css - also for stylings
+* Javascript for gender validation and perform mathematical operations.
 ## Support and contact details
 If you find a bug kindly report on the issues platform.
 for more information contact me at wambukeren@gmail.com
