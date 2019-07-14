@@ -30,4 +30,4 @@ for more information contact me at wambukeren@gmail.com
 ### License
 MIT license
 ### Screenshot
-<img src="" height="400px" width="100%">
+<img src="https://github.com/MungaiKeren/Akan-Names/blob/master/Screenshot%20from%202019-07-14%2018-06-36.png?raw=true" height="400px" width="100%">
