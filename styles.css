@@ -23,6 +23,14 @@ p#p{
     font-family: 'Sawarabi Mincho', sans-serif;
     font-size: 28px;
 }
+#funfact{
+    font-family: 'Sawarabi Mincho', sans-serif;
+    text-align: justify !important;
+}
+p#welcome{
+    text-align: center !important;
+    font-family: 'Krub', sans-serif;
+}
 h1,h2,h3,p,span,label{
     text-align: center;
     top: 50%;
