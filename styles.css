@@ -18,6 +18,11 @@ body{
     border-radius: 10px;
     top: 50%;
 }
+p#p{
+    text-align: left !important;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-size: 28px;
+}
 h1,h2,h3,p,span,label{
     text-align: center;
     top: 50%;
@@ -27,8 +32,8 @@ h2#h2{
     text-align: center;
     top: 50%;
     color: white;
-    font-size: 24px;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 40px;
+    font-family: 'Allerta Stencil', sans-serif;
 }
 label{
     font-size: 24px;
