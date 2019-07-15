@@ -87,5 +87,4 @@ function checkDayOfTheWeek(){
     } else{
         console.log("failed")
     }
-    //return false;
 }
