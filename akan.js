@@ -82,7 +82,10 @@ function checkDayOfTheWeek(){
         document.write("You were born on "+days[5]+" and your Akan name is "+femaleNames[5]);
     } else if (gender=="male" && calculate==6){
         document.write("You were born on "+days[6]+" and your Akan name is "+maleNames[6]);
-    } else {
+    } else if (gender=="female" && calculate==6){
         document.write("You were born on "+days[6]+" and your Akan name is "+femaleNames[6]);
+    } else{
+        console.log("failed")
     }
+    //return false;
 }
