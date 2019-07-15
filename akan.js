@@ -11,8 +11,42 @@ function workout(){
     dayOfTheWeek = (((century/4)-2*century-1)+((5*year/4))+((26*(month+1)/10))+day-2)%7;
     return(Math.floor(dayOfTheWeek));
 }
+function validation(){
+  if (document.getElementById("century").value == "" || century<1 || century>21){
+      alert("Please enter a valid century")
+      return false;
+  }else{
+      return true;
+  }
+}
+function val(){
+    validation();
+    if (document.getElementById("year").value == "" || year<1 || year>99){
+        alert("Please enter a valid year")
+        return false;
+    } else {
+        return true;
+    }
+}
+function val2(){
+    val();
+    if (document.getElementById("month").value == "" || month<1 || month>12){
+        alert("Please enter a valid month")
+    } else {
+        return true;
+    }
+}
+function val3(){
+    val2();
+    if (document.getElementById("day").value == "" || day<1 || day>31){
+        alert("Please enter a valid day.")
+    } else {
+        return true;
+    }
+}
 function checkDayOfTheWeek(){
     var calculate = workout();
+    val3();
     gender = document.getElementsByName("gender");
     if (gender[0].checked==true){
         gender = "male";

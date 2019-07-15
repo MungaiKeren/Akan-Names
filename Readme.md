@@ -18,6 +18,7 @@ To make and improvement or fix a bug, please follow the steps below;
 * Create a pull request
 ## Known Bugs
 * Application does violate gender input.
+* Application violates inputs.
 * The day of the week might not match the actual day on the calendar.
 ## Built with
 * HTML - uses forms to collect user input
